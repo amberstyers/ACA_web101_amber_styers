@@ -1,0 +1,30 @@
+body {
+ height: 100%;
+ width: 100%;
+ background: rgb(118, 83, 141);   
+}
+div {
+background: rgb(196, 148, 148);
+height: 300px;
+width: 250px;
+text-align: center;
+}
+#yellow {color: yellow;
+font-size: 24px;}
+h3 {display: inline-block;
+    margin: 0 10px 0 0;
+}
+h3:hover {color: white;}
+p {display: inline-block;}
+p:nth-last-of-type(2)
+{font-size: .5em;
+ font-size: 10px;}
+ .content {text-align: left;
+padding: 0 0 0 10px;
+color: green;
+font-weight: bold;}
+input [type=text] {
+    font-size: 60px;
+    background: red;
+    border: 5px solid green;
+}
