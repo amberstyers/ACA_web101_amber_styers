@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(168, 168, 226);
+}
+.border1{
+  border: 1px solid red;
+}
+.body {
+  flex-direction: column;
+  margin: 40;
+}
