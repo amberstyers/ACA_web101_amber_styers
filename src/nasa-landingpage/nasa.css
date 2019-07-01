@@ -4,14 +4,38 @@
   box-sizing: border-box;
 }
 .main-container {
+  display: flex;
+  justify-content: flex-end;
   height: 100%;
   width: 100%;
   background-color: rgb(168, 168, 226);
 }
-.border1{
-  border: 1px solid red;
+nav {
+  background-image: url("./space.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
+ul {
+  display: flex;
+  justify-content: space-between;
+  }
 .body {
-  flex-direction: column;
+  display: flex;
   margin: 40;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: antiquewhite;
+}
+.another-area {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: blanchedalmond;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
 }
