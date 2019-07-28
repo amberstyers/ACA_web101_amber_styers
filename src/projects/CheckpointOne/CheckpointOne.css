@@ -40,14 +40,17 @@ ul{
 }
 a{
   text-decoration: none;
+  color: rgb(6, 31, 112);
+  padding: 5px;
 }
 
 header {
   height: 15%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
+  justify-content: space-evenly;
 }
 main {
   height: 85%;
@@ -78,4 +81,26 @@ main {
   grid-column: 2;
   display: flex;
   justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+button {
+ margin-top: 10px;
+}
+.boximages {
+  width: 100%;
+}
+h3 {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.goal {
+  display: flex;
+  flex-direction: column;
 }
