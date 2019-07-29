@@ -1,0 +1,42 @@
+body {
+  margin: 0 auto;
+  width: 850px;
+
+}
+main {
+  margin: 0 auto;
+  background-image: url(./space.jpg);
+  color: white;
+  height: 450px;
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
+}
+section {
+  display: flex;
+  height: 324px;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex-flow: column wrap;
+  align-content: stretch;
+  justify-content: center;
+  background-color: rgb(224, 222, 222);
+  /* flex-direction: column; */
+}
+article {
+  width: 270px;
+  height: 374px;
+  background-color: rgb(224, 222, 222);
+}
+/* .office { */
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+/* } */
+/* .social { */
+  /* display: flex; */
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: left; */
+/* } */
