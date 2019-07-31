@@ -1,26 +1,25 @@
-[data-row] {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 34px;
+
+[data-row] 
+{
+  height: 50px;
   margin: 25px;
   border: 1px solid lightgray;
 }
 
 [data-row].red {
-  background-color: #f6c5c5;
+  background-color: rgb(30, 8, 70);
 }
 
 [data-row].yellow {
-  background-color: #ffffa9;
+  background-color: rgb(241, 226, 11);
 }
 
 [data-row].green {
-  background-color: #baf6ba;
+  background-color: rgb(199, 38, 185);
 }
 
 [data-row].blue {
-  background-color: aliceblue;
+  background-color: rgb(11, 241, 11);
 }
 
 [data-color] {
@@ -29,26 +28,26 @@
 }
 
 [data-color="blue"] {
-  height: 33px;
-  background-color: blue;
+  height: 50px;
+  background-color: rgb(241, 226, 11);
 }
 
 [data-color="green"] {
-  height: 33px;
-  background-color: green;
+  height: 50px;
+  background-color: rgb(30, 8, 70);
 }
 
 [data-color="red"] {
-  height: 33px;
-  background-color: red;
+  height: 50px;
+  background-color: rgb(199, 38, 185);
 }
 
 [data-color="yellow"] {
-  height: 33px;
-  background-color: yellow;
+  height: 50px;
+  background-color: rgb(11, 241, 11);
 }
 
 #announce-game-won {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
 }
