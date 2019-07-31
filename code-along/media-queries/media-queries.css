@@ -61,3 +61,11 @@ nav ul li {
     display: block;
   }
 }
+.content {
+  background: url(./images/horse.jpg);
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  background-size: cover;
+}
